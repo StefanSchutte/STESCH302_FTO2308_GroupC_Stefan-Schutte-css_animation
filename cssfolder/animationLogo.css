@@ -1,4 +1,42 @@
 .imgLogo {
   height: 500px;
   width: 400px;
+  opacity: 0.6;
+}
+
+/* The animation code */
+@keyframes myAnimatedLogo {
+  0% {
+    transform: rotate(360deg);
+  }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: purple;
+  }
+  45% {
+    background-color: blue;
+  }
+  60% {
+    background-color: violet;
+  }
+  75% {
+    background-color: yellow;
+  }
+  90% {
+    background-color: orange;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+/* The element to apply the animation to */
+div {
+  width: 400px;
+  height: 500px;
+  animation-name: myAnimatedLogo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
