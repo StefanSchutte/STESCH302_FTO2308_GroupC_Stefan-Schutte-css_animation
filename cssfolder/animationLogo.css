@@ -22,7 +22,7 @@
   }
   100% {
     background-color: green;
-    transform: rotate(360deg) translateX(300px);
+    transform: rotate(360deg) translateX(150px);
   }
 }
 
